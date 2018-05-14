@@ -21,7 +21,7 @@ math.import({
   mod:        function (a, b) { return a % b },
   unaryPlus:  function (a) { return  a },
   unaryMinus: function (a) { return -a },
-  factorial: fucntion (a) {
+  factorial: function (a) {
     if (a % 1 !== 0) { return 'bla'; }
     let pro = 1;
     for (let i = 2; i <= a; i += 1) { pro *= i; }
