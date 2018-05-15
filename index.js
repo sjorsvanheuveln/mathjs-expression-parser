@@ -23,8 +23,8 @@ math.import({
   unaryMinus: function (a) { return -a },
   factorial: function (a) {
     if (a % 1 !== 0) { return 'NAN'; }
-    let pro = 1;
-    for (let i = 2; i <= a; i += 1) { pro *= i; }
+    var pro = 1;
+    for (var i = 2; i <= a; i += 1) { pro *= i; }
     return pro;
   },
 
